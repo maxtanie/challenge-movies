@@ -7,3 +7,68 @@
   font-family: "Source Sans Pro", sans-serif;
   overflow-x: hidden;
 }
+
+/*
+---------------------------------------------
+NAV
+---------------------------------------------
+*/
+.nav {
+  z-index: 999;
+  text-align: center;
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  .list-items {
+    text-decoration: none;
+    color: #111;
+    padding: 0 30px;
+    &:hover {
+      color: #cc0000;
+      transition: 0.3s ease;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .list-items {
+      display: block;
+      padding: 0;
+      line-height: 45px;
+    }
+  }
+}
+
+.container {
+  width: 700px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.title-section {
+  font-size: 4em;
+}
+
+.center {
+  text-align: center;
+}
+
+.input-style {
+  outline: none;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: block;
+}
+
+.range-style {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+}
+
+img {
+  max-width: 100%;
+}
